@@ -1,0 +1,7 @@
+     cd путь_к_вашему_проекту
+     git init
+     git add .
+     git commit -m "Первый коммит"
+     git remote add origin ссылка_на_ваш_репозиторий.git
+     git push -u origin master
+     
