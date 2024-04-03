@@ -2,7 +2,7 @@ def create_credentials_file():
     with open('credentials.txt', 'w') as file:
         file.write('user1,password1\n')
         file.write('user2,password2\n')
-        # Здесь можно добавить другие логины и пароли
+        # file.write('kolya ,0001)
 
 def check_credentials(username, password):
     with open('credentials.txt', 'r') as file:
